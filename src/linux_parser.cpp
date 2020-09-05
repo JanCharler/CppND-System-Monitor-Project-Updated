@@ -108,8 +108,6 @@ long LinuxParser::Jiffies() {
 }
 
 // Done: Read and return the number of active jiffies for a PID
-// Note: this function is no longer used but kept in for the test submission.
-// All work is instead done with LinuxParser::CpuUtilization(int pid);.
 long LinuxParser::ActiveJiffies(int pid) {
   std::fstream filestream(kProcDirectory + '/' + std::to_string(pid) +
                           kStatFilename);
