@@ -1,6 +1,6 @@
 # Linux System Monitor
 
-This project is from the Udacity C++ Nanodegree program. It is a system monitor running on the Linux terminal displaying process information.
+This project is from the Udacity C++ Nanodegree program. It is a system monitor for Linux systems which runs on the terminal. 
 
 ## Instructions
 
